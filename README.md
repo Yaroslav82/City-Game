@@ -4,11 +4,11 @@ This project is a web-based game called "Міста" (Cities), where the player 
 
 ## Features
 
-- **Interactive Gameplay**: The game allows the player to compete against the system in naming cities.
+- **Interactive Gameplay**: The game allows the player to compete against the system in naming Ukrainian cities.
 - **Smart Letter Handling**: If a city's name ends with the letters 'ь', 'ъ', 'й', or 'и', the system will use the penultimate letter for the next city.
 - **Session Management**: Multiple game sessions can run concurrently, and sessions are marked as inactive upon completion.
 - **Error Handling**: The system checks if the player's city name starts with the correct letter and whether it has been used before. If either condition fails, the player receives an appropriate error message.
-- **City List**: The list of cities is parsed from Wikipedia, ensuring a comprehensive and up-to-date collection.
+- **City List**: The list of Ukrainian cities is parsed from Wikipedia, ensuring a comprehensive and up-to-date collection.
 
 ## Database Setup
 
